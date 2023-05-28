@@ -3,6 +3,7 @@
 <head>
 	<title>Temas de patologías auditivas</title>
   <link rel="stylesheet" type="text/css" href="estilo.css">
+  <script src="ruta/al/archivo.js"></script>
 	<style type="text/css">
 		body {
 			background: rgb(2,0,36);
@@ -101,11 +102,13 @@ background-attachment: fixed;
   
   
    <div style="margin-top: 20px; margin-bottom: 2%; margin-left: 15%;">
-      <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeqPEOR0Rc6CWfK8KR8-wCJUF1YLzwZOaVFCm8w9XzJ3yaIBw/viewform'" target="_blank">Test tipo 1</button>
-      <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSe6JILUw-cBDCkYfVYttnBqBoSOlXS3xCc2JCAPCEQxiYmysw/viewform'" target="_blank">Test tipo 2</button>
-      <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfoLwFJWdM-5PSzae7VWMpxfB2y17y4_3wKAryJdDOIQ8F4LA/viewform'" target="_blank">Test tipo 3</button>
-      <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSes_8P0-gIreBs8WHgHYjjiH6emXvtpNPRW7A4s9xhuomsRLA/viewform'" target="_blank">Test tipo 4</button>
-      <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSes_8P0-gIreBs8WHgHYjjiH6emXvtpNPRW7A4s9xhuomsRLA/viewform'" target="_blank">Test tipo 5</button>
+     
+     <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeqPEOR0Rc6CWfK8KR8-wCJUF1YLzwZOaVFCm8w9XzJ3yaIBw/viewform')">Test tipo 1</button>
+     <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSe6JILUw-cBDCkYfVYttnBqBoSOlXS3xCc2JCAPCEQxiYmysw/viewform')">Test tipo 2</button>
+     <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfoLwFJWdM-5PSzae7VWMpxfB2y17y4_3wKAryJdDOIQ8F4LA/viewform')">Test tipo 3</button>
+     <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSes_8P0-gIreBs8WHgHYjjiH6emXvtpNPRW7A4s9xhuomsRLA/viewform')">Test tipo 4</button>
+     <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSes_8P0-gIreBs8WHgHYjjiH6emXvtpNPRW7A4s9xhuomsRLA/viewform')">Test tipo 5</button>
+
     </div>
   
    <div id="tema">
@@ -619,16 +622,11 @@ background-attachment: fixed;
             <br><br> Es importante destacar que, si una persona presenta cualquiera de estos síntomas, debe buscar atención médica para recibir un diagnóstico y tratamiento adecuado. La otitis externa puede complicarse si no se trata adecuadamente y puede provocar una infección más grave.
             </td>
             <td>Dolor al mover la mandíbula: el movimiento de la mandíbula puede provocar dolor en el oído afectado.
-              
              <br><br> Enrojecimiento e inflamación en el conducto auditivo externo: la piel del conducto auditivo externo puede estar enrojecida e inflamada.
-              
              <br><br> Hinchazón en el conducto auditivo externo: la hinchazón puede obstruir el conducto auditivo externo y provocar sensación de tapón en el oído.
-              
-            <br><br> Sensibilidad al tacto: el conducto auditivo externo puede ser sensible al tacto y provocar dolor al tocarlo.
-              
-            <br><br>  Fiebre: en casos graves de otitis externa, la persona puede tener fiebre y sentirse mal.
-              
-            <br><br> Ganglios linfáticos inflamados: en algunos casos, los ganglios linfáticos cercanos al oído pueden estar inflamados.
+             <br><br> Sensibilidad al tacto: el conducto auditivo externo puede ser sensible al tacto y provocar dolor al tocarlo.
+             <br><br>  Fiebre: en casos graves de otitis externa, la persona puede tener fiebre y sentirse mal.
+             <br><br> Ganglios linfáticos inflamados: en algunos casos, los ganglios linfáticos cercanos al oído pueden estar inflamados.
               
             <br><br> Es importante destacar que estos síntomas no auditivos también pueden ser indicativos de otras afecciones, por lo que es importante buscar atención médica para recibir un diagnóstico y tratamiento adecuado.</td>
             <td>La otitis externa generalmente no causa hipoacusia, es decir, pérdida de audición. Sin embargo, en casos graves, la inflamación y la acumulación de 
@@ -2227,7 +2225,20 @@ background-attachment: fixed;
 </table>
  
 
-  <script>
+  
+<script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+
+
 const select = document.getElementById("tema");
 const temas = document.querySelectorAll(".tema");
 
